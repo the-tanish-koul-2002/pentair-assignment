@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+}
+  
+#temperature {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.Main{
+    border: 2px solid black;
+}
