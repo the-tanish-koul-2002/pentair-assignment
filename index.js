@@ -48,7 +48,11 @@ try {
 
 })
 
-app.listen(3000,()=>{
-    console.log("Listening to Port 3000, Server Started Succesfully");
-    
-})
+if (require.main === module) {
+  app.listen(3000, () => {
+    console.log("Listening to Port 3000, Server Started Successfully");
+  });
+}
+
+module.exports = app;
+
